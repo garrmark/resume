@@ -5,46 +5,47 @@ Centennial, CO | 330-780-7930 |
 [linkedin.com/in/markgarrison](http://linkedin.com/in/markgarrison) |
 Clearable
 
-## PRINCIPAL ENGINEER
+## PRINCIPAL SOFTWARE ENGINEER
 
-Accomplished Staff+ level DevOps and Technology Leader with 15+ years of
-experience driving software innovation and engineering excellence. Expertise in
-architecting, deploying, and optimizing high-performing cloud applications using
-containerization, orchestration, and DevOps methodologies. Proven track record
-of leading self-sufficient, collaborative engineering teams focused on
-continuous delivery through automated CI/CD pipelines, observability, and
-measuring business impact.
+Accomplished Staff+ engineer with 15+ years spanning application development
+and platform engineering. Designs and builds production software—backend
+services, microservices, and developer-facing products in Java, C#, .NET, and
+Node.js—alongside the cloud-native platforms that run them. Proven track record
+leading teams from architecture and implementation through automated delivery,
+observability, and production operations.
 
 ## KEY QUALIFICATIONS
 
-* Skilled in full-lifecycle development and operations for cloud-native and
-  on-premise, microservices-based platforms.
-* Champion for DevOps cultural transformation.
-* Establish modern DevOps tool chains and engineering best practices for
-  high-velocity software delivery.
+* Design and deliver backend services, APIs, and microservices across Java,
+  C#, .NET, and Node.js in cloud-native and on-premise environments.
+* Build and operate the platforms, pipelines, and infrastructure that support
+  reliable, high-velocity software delivery.
+* Full-lifecycle ownership from system design and hands-on coding through
+  deployment, monitoring, and production support.
 * Exceptional leadership in attracting, mentoring, and upskilling top
   engineering talent. Fostering cultures of innovation and accountability.
-* Design and implement scalable, highly available, and secure cloud
-  architectures aligned to business objectives.
+* Unite software craftsmanship with operational excellence—testing, CI/CD,
+  observability, and secure, scalable architecture aligned to business goals.
 * Skilled in Agile frameworks (Scrum, Kanban, ShapeUp) and servant leadership
   to empower cross-functional team collaboration and deliver amazing products.
 
 ## CORE COMPETENCIES
 
-**Technologies:** ArgoCD | Ansible | ASP.NET | AWS | EKS | C# | Crossplane |
-GitHub | Java | Kubernetes | Linux | Microsoft Azure | Microsoft SQL Server |
-.NET | Node.js | Puppet | Python | RavenDB | SQL | Terraform | Ubuntu |
-Visual Studio | XML | Powershell | Bash | VMWare ESXi
+**Languages & Frameworks:** C# | .NET | Java | Node.js | Python | ASP.NET |
+SQL | Microsoft SQL Server | RavenDB
 
-**Teamwork:** Agile Methodologies | Collaborative Problem Solving |
-Communication | Scrum | SDLC | Servant Leadership | Shape Up | Software Project
-Management | DORA Metrics
+**Software Engineering:** Microservices | API Design | Software Design |
+Software Architecture | Integration | Testing | Embedded Systems
 
-**Areas of Expertise:** Build Pipelines | Continuous Integration and Continuous
-Delivery (CI/CD) | Developer Experience (DevEx) | DevOps | Disaster Recovery |
-Embedded Systems | Infrastructure as Code (IaC) | Integration | Platform
-Engineering | Reliability Engineering | Software Design | Software Engineering
-| Testing | Managing VM's | Linux and Windows Containers
+**Platforms & Infrastructure:** Kubernetes | AWS | EKS | Azure | Linux |
+Docker | Terraform | Crossplane | ArgoCD | Ansible | Puppet | VMWare ESXi
+
+**Delivery & Operations:** CI/CD | Build Pipelines | Platform Engineering |
+DevOps | Developer Experience (DevEx) | Observability | Reliability Engineering
+| Infrastructure as Code (IaC) | Disaster Recovery
+
+**Collaboration:** Agile Methodologies | Scrum | Shape Up | SDLC | Servant
+Leadership | Software Project Management | DORA Metrics
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -52,85 +53,64 @@ Engineering | Reliability Engineering | Software Design | Software Engineering
 
 #### Principal Software Engineer
 
-* Took ownership of a stagnant SaaS conversion project and led it to
-  completion, transforming CodeLogic's software intelligence platform from
-  on-premise installation to a cloud-native SaaS model. Created an automated
-  platform using Crossplane for infrastructure as code and ArgoCD for
-  GitOps-based deployments to Amazon EKS, implementing customer isolation
-  through dedicated nodegroups with Kubernetes taints and tolerations for
-  secure multi-tenant architecture. Streamlined customer onboarding by
-  eliminating per-tenant sealed secrets and centralizing shared credentials at
-  the platform level.
-* Evaluated and implemented a comprehensive observability solution using
-  Honeycomb with OpenTelemetry support to monitor customer SaaS environments.
-  Deployed auto-instrumentation for Java and Node.js applications and
-  configured OTEL collectors for aggregating logs, traces, and metrics from
-  Kubernetes clusters, establishing performance baselines and proactive issue
-  detection capabilities. Instrumented materialized-view and change-request
-  performance paths to surface database bottlenecks in production.
 * Architected and delivered CodeLogic's AI-powered library upgrade platform,
   integrating GitHub webhooks, software intelligence analysis, and Anthropic
-  Claude for automatic dependency migration code generation. Migrated
-  orchestration from event-driven execution to JobRunr, refactored git
-  operations from Kubernetes jobs into the application service, and implemented
-  AI-filtered build log analysis to sustain multi-iteration CI feedback loops.
-  Added .NET Central Package Management support and validated the platform by
-  autonomously upgrading an internal service from Spring Boot 2.7 to 3.3.
-* Designed and built the CodeLogic GitHub App for multi-tenant SaaS,
-  including a central routing service that maps installation IDs to customer
-  tenants, installation-token authentication replacing PATs, PR check runs for
-  workflow visibility, and automated repo onboarding with bootstrap
-  configuration PRs and zero-touch ChangeRequestConfig provisioning.
-  Delivered backend library upgrade automation that discovers Maven and NuGet
-  updates and opens upgrade pull requests using Claude-based dependency
-  discovery, enabling a minimal-UI customer experience requiring only GitHub
-  App installation.
+  Claude for automatic dependency migration code generation. Built backend
+  workflow orchestration with JobRunr, moved git and repository operations
+  into application services, and implemented AI-filtered build log analysis to
+  sustain multi-iteration CI feedback loops. Added .NET Central Package
+  Management support and validated the platform by autonomously upgrading an
+  internal service from Spring Boot 2.7 to 3.3.
+* Designed and implemented the CodeLogic GitHub App and routing service for
+  multi-tenant SaaS—installation-token authentication, PR check runs,
+  automated repo onboarding with bootstrap configuration PRs, and backend
+  library upgrade automation that discovers Maven and NuGet updates and opens
+  upgrade pull requests using Claude-based dependency discovery.
 * Identified and remediated a cross-tenant security vulnerability in the
   GitHub App OAuth install flow, replacing forgeable hostname-based state with
   opaque server-issued tokens and requiring authenticated admin sessions for
   setup completion. Enhanced the CodeLogic MCP server with graph-aware tooling
   to expose software intelligence data to AI coding agents for method impact
   analysis and CI build feedback integration.
+* Led completion of CodeLogic's SaaS platform transformation, delivering
+  multi-tenant backend services on Amazon EKS with Crossplane and ArgoCD
+  GitOps, customer isolation via dedicated nodegroups, and streamlined
+  onboarding that eliminated per-tenant manual configuration.
+* Implemented observability with Honeycomb and OpenTelemetry across Java and
+  Node.js services; instrumented materialized-view and change-request code
+  paths to diagnose and resolve production database performance bottlenecks.
 
 ### PartsSource Inc., Aurora, OH — 06/2008 – 05/2024
 
-#### Staff Software Engineer, DevOps
+#### Staff Software Engineer
 
-* Progressed from Sr. Software Engineer to Staff DevOps Engineer, introducing
-  agile practices and assembling top-tier app development and DevOps teams;
-  achieved a 35% reduction in deployment times and enhanced software quality.
-* Lead the team that transformed a legacy monolithic application in .NET
-  Framework to a modern microservice using ASP.NET C# .NET Core (now .NET8)
-  based application, improving performance of web requests by 50%.
-* Architected, developed and monitored the infrastructure (running on-premise
-  Azure Service Fabric clusters in vSphere ESXi windows server VM's) for
-  [partssource.com](https://partssource.com) a highly available, resilient,
-  and performant e-commerce site utilized by 12,000 users per day to find and
-  purchase medical replacement parts and services.
-* Created and maintained on-premise kubernetes clusters using Ubuntu VM's and
-  Rancher/RKE nodes to run production microservice and data processing
-  workloads for a data dashboard for partssource.com customers to manage their
-  requests, orders, returns, and exchanges.
-* Created chatops bots using Microsoft Copilot natural language processing and
-  Azure Automations to provide support, test, and development personnel
-  frictionless help with their daily work.
-* Established application performance monitoring using Azure Application
-  Insights, Grafana and Prometheus for end-to-end tracing of app and database
-  performance. Alerted to anomalies and poor performance, providing actionable
-  insight to development teams.
-* Led infrastructure automation projects, achieving zero downtime deployment
-  using TeamCity, Github Actions, and Drone.io for
-  [www.partssource.com](https://www.partssource.com) and reducing deployment
-  downtime from an average of 30 minutes.
-* Set up SSL offloading and load balancing with an A or A+ SSL Labs security
-  rating for all external facing websites in support of monthly PCI DSS scans
-  and yearly pen tests.
-* Lead the DevOps team for a SAAS eCommerce application for medical and dental
-  industry OEMs to catalog and sell their repair parts, software and services.
+* Progressed from Senior Software Engineer to Staff Engineer, leading
+  application development and platform teams; achieved a 35% reduction in
+  deployment times while improving software quality across the organization.
+* Led the team that transformed a legacy .NET Framework monolith into a modern
+  ASP.NET C# .NET Core (now .NET 8) microservices architecture, improving web
+  request performance by 50%.
+* Architected and developed [partssource.com](https://partssource.com), a
+  high-traffic e-commerce platform serving 12,000 daily users, including
+  application services on Azure Service Fabric and the supporting
+  infrastructure on vSphere ESXi.
+* Built customer-facing microservices and data processing workloads for order,
+  return, and exchange management dashboards; deployed on on-premise Kubernetes
+  clusters (Rancher/RKE on Ubuntu).
+* Developed chatops bots using Microsoft Copilot NLP and Azure Automations to
+  automate support, testing, and development workflows for engineering teams.
+* Led the DevOps function for a SaaS e-commerce platform enabling medical and
+  dental OEMs to catalog and sell repair parts, software, and services.
+* Drove infrastructure automation achieving zero-downtime deployments with
+  TeamCity, GitHub Actions, and Drone.io for
+  [www.partssource.com](https://www.partssource.com), reducing average
+  deployment downtime from 30 minutes to none.
+* Established end-to-end application performance monitoring with Azure
+  Application Insights, Grafana, and Prometheus; delivered actionable
+  performance insights to development teams.
 * Facilitated the software craftsmanship community within PartsSource, where
-  all members of the IT organization met on a bi-weekly basis to share
-  information on techniques, tools, platforms, languages and frameworks to
-  improve and cross train on different skills.
+  IT members met bi-weekly to share techniques, tools, languages, and
+  frameworks for cross-team skill development.
 
 ### Honeywell (Novar), Independence, OH — 09/2006 – 06/2008
 
